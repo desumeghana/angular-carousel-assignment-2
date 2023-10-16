@@ -8,9 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   input:string='hello';
   title:number=1.234;
-  images=["https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=600"]
+  images=['https://picsum.photos/id/1/200/300', 'https://picsum.photos/id/2/200/300', 'https://picsum.photos/id/3/200/300']
   src=this.images[0];
   idx=0;
   
