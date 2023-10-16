@@ -1,0 +1,19 @@
+.prev-btn,.next-btn{
+    display: inline;
+    padding:40px 5px;
+    margin-bottom: 20px;
+}
+li{
+    list-style-type: disc;
+     color:black;
+}
+li:hover{
+    color:blue;
+}
+.Carousel-buttons{
+    padding:2px 20px;
+    margin-left: 1px;
+}
+.Carousel-buttons:click{
+    background-color:black;
+}
